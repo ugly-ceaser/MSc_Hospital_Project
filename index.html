@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+    <!-- <link rel="stylesheet" href="/css/bootstrap.css"> -->
+    <link rel="stylesheet" href="/css/style.css">
+    <title>MScHospital_Project</title>
+</head>
+<body>
+    <div class="container">
+        <nav class="navbar-desktop">
+            <h1 class="logo">LOGO</h1>
+            <ul class="nav">
+                <li class="navlinks"><a href="/">HOME</a></li>
+                <li class="navlinks"><a href="#about">ABOUT</a></li>
+                <li class="navlinks"><a href="#contact">CONTACT</a></li>
+                <li class="navlinks"><a href="/pages/login.html">LOGIN</a></li>
+                <li class="navlinks"><a href="/pages/register.html">REGISTER</a></li>
+            </ul>
+
+
+           
+
+
+
+        </nav>
+    
+        
+        <nav>
+            <div class="navbar mobile">
+              <div class="container nav-container">
+                  <input class="checkbox" type="checkbox" name="" id="" />
+                  <div class="hamburger-lines">
+                    <span class="line line1"></span>
+                    <span class="line line2"></span>
+                    <span class="line line3"></span>
+                  </div>  
+                <div class="logo">
+                  <h1>LOGO</h1>
+                </div>
+                <div class="menu-items">
+                  <li><a href="/">Home</a></li>
+                  <li><a href="#about">about</a></li>
+                  <li><a href="./pages/contactUs.html">Contact</a></li>
+                  <li><a href="./pages/login.html">Login</a></li>
+                  <li><a href="./pages/register.html">Register</a></li>
+                </div>
+              </div>
+            </div>
+          </nav>
+
+    </div>
+
+    <div class="container">
+        <div class="home">
+            <label  id="toggleBtn" for="appointBtncheck" class="appointBtn">Book Appointment</label>
+            <input class="checkbox"  type="checkbox" name="" id="appointBtncheck" hidden/>
+       
+            <div class="appointForm">
+                  <form id="bookingform" method="post" >
+                    <h3>BOOKING FORM</h3>
+                    <div class="formfeilds">
+                        <div>
+                            <input id="fullname" type="text" name="fullname" placeholder="Fullname" required>
+
+                            <input id="phoneNumber" type="text" name="phone" placeholder="Phone Number" required>
+
+                            <input id="personalId" type="text" name="personalId" placeholder="Personal Id No" required>
+                            <br>
+                            <span>Do you You Have a Personal Identificatio Number ? <br><p style="color: red; margin-left:65%;">Register Now</p></span>
+
+                            <input id="email" type="email" name="email" placeholder="Email" required>
+                        </div>
+                        <div>
+                            <select id="appointmentDate" type="date" name="time" placeholder="Select Date" required>
+                                <option>Select Appointment Date</option>
+                                <option>Department</option>
+                                <option>Department</option>
+                                <option>Department</option>
+
+                            </select>
+
+                            <select id="department" type="text" name="department" placeholder="Department" required>
+                                <option>Select Department</option>
+                                <option>Department</option>
+                                <option>Department</option>
+                                <option>Department</option>
+                            </select>
+                            <br>
+
+                            <span>What kind of Doctor Do you want to  <span style="color:red;">See </span>?</span>
+
+                            <select id="gender" type="text" name="gender" placeholder="Department" required>
+                                <option>Select Gender</option>
+                                <option value="Male">Male</option>
+                                <option value="Female">Female</option>
+                                
+                            </select>
+                            
+                           
+
+                            <select id="appointmentTime" type="date" name="time" placeholder="Select Time" required>
+                                <option>Select Time of Appointment</option>
+                                <option>Department</option>
+                                <option>Department</option>
+                                <option>Department</option>
+
+                            </select>
+                        </div>
+
+                    </div>
+                    <button id="submit" type="button" name="submit">Make Appointment</button>
+                </form>
+
+            </div>
+            
+
+        </div>
+    </div>
+    <div class="section_custom">
+		<div class="container_custom">
+			<div class="content-section">
+				<div class="title">
+					<h1>About Us</h1>
+				</div>
+				<div class="content">
+					<h3>Lorem ipsum dolor sit amet, consectetur adipisicing</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat.</p>
+					<div class="button_custom">
+						<a href="">Read More</a>
+					</div>
+				</div>
+				<!-- <div class="social">
+					<a href=""><i class="fab fa-facebook-f"></i></a>
+					<a href=""><i class="fab fa-twitter"></i></a>
+					<a href=""><i class="fab fa-instagram"></i></a>
+				</div> -->
+			</div>
+			<div class="image-section">
+				<img style="width: 244px; height:300px" src="/img//bg.png">
+			</div>
+		</div>
+	</div>
+
+<div class="contact-section">
+
+  <h1>Contact Us</h1>
+  <div class="border"></div>
+  <form class="contact-form" action="index.html" method="post">
+    <input type="text" class="contact-form-text" placeholder="Your name">
+    <input type="email" class="contact-form-text" placeholder="Your email">
+    <input type="text" class="contact-form-text" placeholder="Your phone">
+    <textarea class="contact-form-text" placeholder="Your message"></textarea>
+    <input type="submit" class="contact-form-btn" value="Send">
+  </form>
+</div>
+    <script src="/js/index.js"></script>
+</body>
+</html>
